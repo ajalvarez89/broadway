@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
+gem 'devise', '~> 4.7', '>= 4.7.1'
 
 
 group :development, :test do
