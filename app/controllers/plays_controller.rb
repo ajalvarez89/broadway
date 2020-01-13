@@ -29,6 +29,6 @@ class PlaysController < ApplicationController
   end
 
   def find_play
-    @plays = Play.all.order("created_at DESC")
+    @play = Play.find(params[:id])
   end
 end
